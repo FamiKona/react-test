@@ -45,13 +45,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo, spinning at approx 2RPM" />
           <p>
             {this.state.headerText + this.state.clickCount}
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://youtu.be/_zB1HelWFNw?t=21"
             target="_blank"
             rel="noopener noreferrer"
           >
