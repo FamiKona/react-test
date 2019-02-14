@@ -8,6 +8,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+    // Obviously, in a more serious project these keys would be hidden.
     this.pubnub = new PubNubReact({
       publishKey: 'pub-c-cf8c7c85-ff0b-48de-94c1-6d24a333eafd',
       subscribeKey: 'sub-c-8460fe66-2ff0-11e9-9089-0a173ec63317'
