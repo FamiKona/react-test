@@ -69,6 +69,16 @@ class App extends Component {
             color='primary'>
             hell yea
           </Button>
+          <Button onClick={() => {
+            this.setState({
+              clickCount: this.state.clickCount - 1,
+            })
+            console.log(this.state.clickCount);
+          }}
+            variant='contained'
+            color='default'>
+            hell nah
+          </Button>
         </header>
       </div>
     );
